@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .outside-container {
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+  }
+
+  .centered {
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .primary-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .secondary-button {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Profile component styles */
+  .profile-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .profile-email {
+    font-size: 16px;
+  }
+
+  .bg-gt-lilac {
+    --tw-bg-opacity: 1;
+    background-color: rgb(192 176 255 / var(--tw-bg-opacity));
+    }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; /* Adjust as needed */
+  }
+
+  .footer-li {
+    list-style-type: none;
+  }
