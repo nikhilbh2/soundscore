@@ -5,7 +5,7 @@ import LoginButton from '../components/Login';
 
 const LoginPage: React.FC = () => {
   return (
-    <div className='container'>
+    <div className='container bg-gt-cream centered'>
       <h1>SoundScore</h1>
       <LoginButton/>
       {/* Add any other content or components for your home page */}
